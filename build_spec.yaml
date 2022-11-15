@@ -10,6 +10,7 @@ steps:
     name: "compress the repo"
     command: |
       tar -cvzf ${OCI_WORKSPACE_DIR}/repo.tgz ./
+      echo "### DEBUGING : ####"
 outputArtifacts:
   - name: artifact
     type: BINARY
